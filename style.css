@@ -1,0 +1,109 @@
+.container {
+    width: 1035px;
+    margin: auto;
+}
+
+.komidashi {
+    display: flex;
+}
+
+.oya_navi {
+    list-style: none;
+    overflow: hidden;
+}
+
+.navi li {
+    float: left;
+    margin: 0 8px;
+}
+
+.navi li li {
+    float: none;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+
+.navi li:hover>ul>li {
+    height: 2rem;
+    overflow: visible;
+}
+
+.search {
+    margin: 0 0 0 auto;
+    width: 48px;
+    height: 48px;
+}
+
+.content_content {
+    display: flex;
+}
+
+.date {
+    width: 360px;
+    margin: 48px 0 0 0;
+}
+
+.content_content h5 {
+    margin: 48px 0;
+}
+
+.memo {
+    width: 700px;
+    margin: 0 auto 0 0;
+}
+
+.number_box {
+    border: solid 1px;
+    padding: 12px;
+    margin: 24px 4px;
+}
+
+.footer {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+}
+
+.footer_content {
+    width: 25%;
+    margin: 32px;
+}
+
+.footer_content img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.profile ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.profile li {
+    float: left;
+    margin: 0 8px 0 0;
+    float: left;
+}
+
+.copyright {
+    display: flex;
+}
+
+.copyright ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.copyright li {
+    float: left;
+    margin: 0 8px 0 0;
+}
+
+.copyright_content {
+    text-align: center;
+    margin: auto;
+}
